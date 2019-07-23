@@ -1,7 +1,7 @@
 #ice-cream {
     padding: 0;
     display: flex;
-    flex-wrap: none;
+    flex-wrap: wrap;
 }
 
 #ice-cream li {
@@ -12,10 +12,9 @@
     border-radius: 50px;
     width: 200px;
     height: 250px;
-    margin-right: 8px;
-    margin-left: 8px;
     text-align: center;
-    box-shadow: 8px 8px 8px #aaa;
+    box-shadow: 6px 6px 6px #aaa;
+    margin: 8px 8px;
 }
 
 #ice-cream li img {

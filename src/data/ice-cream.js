@@ -78,7 +78,7 @@ const vanilla = {
     cost: 1.00
 };
 
-const iceCream = [
+const iceCreamVarieties = [
     chocolate,
     cookieDough,
     neapolitan,
@@ -89,4 +89,4 @@ const iceCream = [
     vanilla
 ];
 
-export default iceCream;
+export default iceCreamVarieties;

@@ -15,7 +15,7 @@ function renderIceCream(iceCream) {
     const p = document.createElement('p');
     p.className = 'price';
 
-    const usd = iceCream.price.toLocaleString('en-US', { style: 'currency', currency: 'USD'});
+    const usd = iceCream.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
     const priceTextNode = document.createTextNode(usd);
     p.appendChild(priceTextNode);
 
