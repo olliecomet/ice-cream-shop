@@ -33,6 +33,11 @@ button {
     cursor: pointer;
 }
 
+nav {
+    border: 6px dotted #FFB09F;
+    padding: 10px;
+}
+
 .hidden {
     display: none;
 }
