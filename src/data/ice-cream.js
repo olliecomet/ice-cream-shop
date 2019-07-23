@@ -51,7 +51,7 @@ const rockyRoad = {
 const spumoni = {
     code: 'spumoni',
     name: 'Spumoni',
-    image: 'assets/spumoni',
+    image: 'assets/spumoni.png',
     description: 'A fancy luxury',
     category: 'fruit',
     price: 4.00,
