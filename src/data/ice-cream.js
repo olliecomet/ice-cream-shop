@@ -66,7 +66,7 @@ const strawberryCheesecake = {
     category: 'fruit',
     price: 4.00,
     cost: 1.50
-}
+};
 
 const vanilla = {
     code: 'vanilla',
