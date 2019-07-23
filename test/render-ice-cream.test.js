@@ -16,7 +16,7 @@ test ('renders ice cream', assert => {
         cost: 1.00
     };
 
-    const expected = '<li class="chocolate" title="A fan favorite"><h3>Chocolate</h3><img src="assets/chocolate.png" alt="Chocolate ice cream image"><p class="price">3.00 <button value="chocolate">Add</button></p></li>';
+    const expected = '<li class="chocolate" title="A fan favorite"><h3>Chocolate</h3><img src="assets/chocolate.png" alt="Chocolate ice cream image"><p class="price">$3.00<button value="chocolate">Add</button></p></li>';
 
     //act
     const dom = renderIceCream(chocolate);

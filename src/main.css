@@ -19,6 +19,7 @@ h1 {
     height: 60px;
     max-height: 50%;
     margin-left: 3px;
+    margin-right: 3px;
     font-size: 30px;
     border-radius: 10px;
     padding-left: 15px
@@ -36,6 +37,9 @@ button {
 nav {
     border: 6px dotted #FFB09F;
     padding: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
 }
 
 .hidden {
