@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+/*placeholder styles below*/
+
+body {
+    font-family: Arial, monospace;
+    background-color: #FFFFAC;
+    color: #512F00;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    background-color: #FFB09F;
+    padding: 10px;
+    box-shadow: -3px 3px #aaa;
+    max-width: 100%;
+    height: 60px;
+    max-height: 50%;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding-left: 15px
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 3px;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    border: 6px dotted #FFB09F;
+    padding: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+
+.hidden {
+    display: none;
+}
