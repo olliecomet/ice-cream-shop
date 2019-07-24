@@ -35,10 +35,3 @@
 .price button {
     margin-left: 10px;
 }
-
-.price button:hover {
-    background: #FFFFAC;
-    color: #512F00;
-}
-
-/*change h1 to ice cream selection?*/

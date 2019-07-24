@@ -46,3 +46,8 @@ nav {
 .hidden {
     display: none;
 }
+
+.price button:hover {
+    background: #FFFFAC;
+    color: #512F00;
+}
