@@ -12,12 +12,12 @@ test('renders a line item', assert => {
         code: 'chocolate',
         quantity: 4
     };
-
+    
     const chocolate = findProduct(lineItem.code, iceCreamVarieties);
     const expected = '<tr><td>Chocolate</td><td>4</td><td>$3.00</td><td>$12.00</td></tr>';
 
     // act
-    const dom = renderLineItem(lineItem, chocolate);
+    const dom = renderLineItem(chocolate, lineItem);
     const html = dom.outerHTML; 
 
     // assert

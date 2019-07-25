@@ -24,5 +24,5 @@ export function calcOrderTotal(order, iceCreamVarieties) {
         orderTotal += lineTotal;   
     }
 
-    return orderTotal;
+    return orderTotal.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 }
