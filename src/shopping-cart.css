@@ -1,0 +1,43 @@
+ table {
+    width: 600px;
+    height: 250px;
+    margin-left: 3px;
+    margin-top: 20px;
+    border: 4px solid #aaa;
+    border-collapse: collapse;
+    flex-wrap: wrap;
+ }
+
+
+ table tr, table th {
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 19px;
+    text-align: left;
+}
+
+table td {
+    padding-left: 8px;
+    font-size: 1.1rem;
+}
+
+button {
+    margin-left: 3px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #FFB09F;
+}
+
+tbody tr:nth-child(odd) {
+    background: antiquewhite;
+}
+
+.order-now button:hover {
+    background: lightblue;
+    color: #512F00;
+}

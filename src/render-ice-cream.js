@@ -28,5 +28,5 @@ function renderIceCream(iceCream) {
 
     return li;
 }
-
+// fixing my mistakes
 export default renderIceCream;
