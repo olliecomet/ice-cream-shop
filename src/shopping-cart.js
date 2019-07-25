@@ -1,17 +1,18 @@
-import order from './data/order.js';
 import iceCreamVarieties from './data/ice-cream.js';
-import { findProduct, calcOrderTotal } from './register.js';
+import { calcOrderTotal } from './register.js';
 import renderLineItem from './render-line-item.js';
-
+import store from './data/store.js';
 
 const tbody = document.querySelector('tbody');
 const orderTotal = document.getElementById('order-total-cell');
 
-for(let i = 0; i < order.length; i++) {
-    const lineItem = order[i];
-    const iceCream = findProduct(order[i].code, iceCreamVarieties);
+const shoppingCart = store.getShoppingCart();
+
+for(let i = 0; i < shoppingCart.length; i++) {
+    const lineItem = shoppingCart[i];
+    const iceCream = store.getProduct(lineItem.code);
     const dom = renderLineItem(iceCream, lineItem);
     tbody.appendChild(dom);
 }
 
-orderTotal.textContent = calcOrderTotal(order, iceCreamVarieties);
+orderTotal.textContent = calcOrderTotal(shoppingCart, iceCreamVarieties);

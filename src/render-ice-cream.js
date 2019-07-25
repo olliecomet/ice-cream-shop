@@ -1,3 +1,5 @@
+import store from './data/store.js';
+
 function renderIceCream(iceCream) {
     const li = document.createElement('li');
     li.className = iceCream.code;
@@ -22,6 +24,9 @@ function renderIceCream(iceCream) {
     const button = document.createElement('button');
     button.textContent = 'Add';
     button.value = iceCream.code;
+    button.addEventListener('click', () => {
+        store.orderProduct(iceCream.code);
+    });
     p.appendChild(button);
 
     li.appendChild(p);
