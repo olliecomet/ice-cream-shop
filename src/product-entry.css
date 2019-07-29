@@ -1,0 +1,12 @@
+p label {
+    font-size: 20px;
+}
+
+p input, textarea {
+    border-radius: 8px;
+}
+
+button {
+    width: 125px;
+    height: 30px;
+}

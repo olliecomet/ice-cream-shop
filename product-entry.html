@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Entry</title>
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/product-entry.css">
+</head>
+
+<body>
+    <header>
+        <h1>Product Entry Form</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">View All Products</a>
+            <a href="shopping-cart.html">Shopping Cart</a>
+            <a href="product-entry.html">Product Form</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Add an Ice Cream Flavor</h2>
+
+        <form action="product-form">
+            <p>
+                <label for="code">Code:</label>
+                <input type="text" name="code" id="code">
+            </p>
+
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </p>
+
+            <p>
+                <label for="category">Category:</label>
+                <input type="text" name="category" id="category">
+            </p>
+
+            <p>
+                <label for="price">Price:</label>
+                <input type="number" name="price" id="price" step="0.1">
+            </p>
+
+            <p>
+                <label for="description">Description:</label>
+                <textarea name="description" id="description"></textarea>
+            </p>
+            
+            <p>
+                <button>Add Ice Cream</button>
+            </p>
+        </form>
+    </main>
+</body>
+
+</html>
