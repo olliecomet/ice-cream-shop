@@ -71,4 +71,20 @@ test('get a product by code', assert => {
     assert.deepEqual(iceCream, expected);
 });
 
+test('add product from form', assert => {
+    // arrange
+    const product = {
+        code: 'rainbow-sherbert',
+        name: 'Rainbow Sherbert',
+        description: 'I ran out of ideas',
+        category: 'plain',
+        price: 3.00,
+    };
 
+    // act
+    store.addProduct(product);
+    const iceCreamVarieties = store.getProducts();
+
+    // assert
+    assert.deepEqual(iceCreamVarieties[iceCreamVarieties.length - 1], product);
+});
