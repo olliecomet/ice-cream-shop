@@ -1,7 +1,8 @@
-import iceCreamVarieties from './data/ice-cream.js';
 import { calcOrderTotal } from './register.js';
 import renderLineItem from './render-line-item.js';
 import store from './data/store.js';
+
+const iceCreamVarieties = store.getProducts();
 
 const tbody = document.querySelector('tbody');
 const orderTotal = document.getElementById('order-total-cell');

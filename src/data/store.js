@@ -44,8 +44,8 @@ const store = {
     },
     orderProduct(code) {
         const shoppingCart = store.getShoppingCart();
-        const lineItem = findProduct(shoppingCart, code);
-
+        const lineItem = findProduct(code, shoppingCart);
+        
         if(lineItem) {
             lineItem.quantity++;
         }

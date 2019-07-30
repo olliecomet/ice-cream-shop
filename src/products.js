@@ -1,5 +1,7 @@
-import iceCreamVarieties from './data/ice-cream.js';
 import renderIceCream from './render-ice-cream.js';
+import store from './data/store.js';
+
+const iceCreamVarieties = store.getProducts();
 
 const list = document.getElementById('ice-cream');
 
