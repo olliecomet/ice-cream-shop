@@ -25,38 +25,37 @@
     <main>
         <h2>Add an Ice Cream Flavor</h2>
 
-        <form action="product-form">
+        <form id="product-form">
             <p>
                 <label for="code">Code:</label>
-                <input type="text" name="code" id="code">
+                <input type="text" name="code" id="code" required>
             </p>
 
             <p>
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
             </p>
 
             <p>
                 <label for="category">Category:</label>
-                <input type="text" name="category" id="category">
+                <input type="text" name="category" id="category" required>
             </p>
 
             <p>
                 <label for="price">Price:</label>
-                <input type="number" name="price" id="price" step="0.1">
+                <input type="number" name="price" id="price" step="0.25" required>
             </p>
 
             <p>
                 <label for="description">Description:</label>
-                <textarea name="description" id="description"></textarea>
+                <textarea name="description" id="description" required></textarea>
             </p>
             
             
-            <p>
-                <button>Add Ice Cream</button>
-            </p>
+            <button>Add Ice Cream</button>
+            
         </form>
     </main>
+    <script src="src/product-entry.js" type="module"></script>
 </body>
-
 </html>
