@@ -40,9 +40,14 @@ nav {
     padding: 10px;
     margin-left: 3px;
     margin-right: 3px;
-    
+    font-size: 18px;
 }
 
 .hidden {
     display: none;
+}
+
+.price button:hover {
+    background: #FFFFAC;
+    color: #512F00;
 }
